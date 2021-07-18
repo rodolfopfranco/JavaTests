@@ -24,7 +24,7 @@ public class ExceptionTest {
     public ExpectedException thrown = ExpectedException.none();
 
     @Test
-    public void shouldTestExceptionMessage() throws IndexOutOfBoundsException{
+    public void shouldTestExceptionMessage() throws IndexOutOfBoundsException {
         List<Object> list = new ArrayList<Object>();
 
         thrown.expect(IndexOutOfBoundsException.class);
